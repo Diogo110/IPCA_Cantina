@@ -1,0 +1,52 @@
+<!DOCTYPE <html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Menu Horizontal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/style.css">
+    </head>
+    <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label> 
+            <img src="../Imagens/Logo.png" style="height: 110px; width: auto; margin-top: -15px;">
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="Refeicao.html">Refeitório</a></li>
+            </ul>
+        </nav>
+        <br><br><br><br><br><br>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="nomep">Nome do Prato</label>
+              <input type="text" id="nomep" name="nomeprato" placeholder="Escreva aqui...">
+          
+              <label for="nomeb">Bebida</label>
+              <input type="text" id="nomeb" name="nomebebida" placeholder="Escreva aqui...">
+          
+              <label for="Dia">Dia da Semana</label>
+              <select id="Dia" name="Dia">
+                <option value="Segunda-feira">Segunda-feira</option>
+                <option value="Terça-feira">Terça-feira</option>
+                <option value="Quarta-feira">Quarta-feira</option>
+                <option value="Quinta-feira">Quinta-feira</option>
+                <option value="Sexta-feira">Sexta-feira</option>
+                <option value="Sábado">Sábado</option>
+              </select>
+          
+              <label for="ingredientes">Ingredientes</label>
+              <textarea id="ingredientes" name="ingredientes" placeholder="Ecreva algo..." style="height:200px"></textarea>
+
+              <label for="receita">Receita</label>
+              <textarea id="receita" name="receita" placeholder="Ecreva algo..." style="height:200px"></textarea>
+              
+              <br><br><br>
+              <input type="submit" value="Submeter">
+          
+            </form>
+          </div>
+        
